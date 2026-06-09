@@ -1,0 +1,8 @@
+[project]
+name = "trustguard"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn[standard]>=0.23.0",
+]
